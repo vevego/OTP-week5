@@ -33,7 +33,7 @@
     </dependencies>
 
     <build>
-        <finalName>interconversions</finalName>
+        <finalName>diceRoller</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -42,7 +42,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>org.example.TempConverter</mainClass>
+                            <mainClass>Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
